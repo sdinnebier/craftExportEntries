@@ -1,0 +1,40 @@
+{
+    "name": "craftcms/export-entries",
+    "description": "Export entries for a select section",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "export entries"
+    ],
+    "support": {
+        "docs": "https://github.com/https://github.com/sdinnebier/craftExportEntries/export-entries/blob/master/README.md",
+        "issues": "https://github.com/https://github.com/sdinnebier/craftExportEntries/export-entries/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sandro Andrei Dinnebier",
+            "homepage": "http://dintech.com.br/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "dot\\exportentries\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Export entries",
+        "handle": "export-entries",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/https://github.com/sdinnebier/craftExportEntries/export-entries/master/CHANGELOG.md",
+        "class": "dot\\exportentries\\ExportEntries"
+    }
+}
